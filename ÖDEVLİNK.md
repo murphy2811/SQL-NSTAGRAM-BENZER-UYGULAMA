@@ -1,0 +1,2 @@
+# SQL-NSTAGRAM-BENZER-UYGULAMA
+https://youtu.be/c11BG0ipcxQ
