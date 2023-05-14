@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/duffy"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Kaydolun"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="6dp"
+        android:textSize="38sp"
+        android:text="HOŞGELDİNİZ"
+        android:textColor="#ED410B"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/Adi"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:hint="Adı"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/kullaniciAdi"
+        android:layout_width="388dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="DuplicateIds"/>
+    <EditText
+        android:id="@+id/kullaniciEmail"
+        android:layout_width="388dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail Adresi"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        tools:ignore="DuplicateIds" />
+    <EditText
+        android:id="@+id/kullaniciSifre"
+        android:ems="10"
+        android:layout_height="wrap_content"
+        android:layout_width="388dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Şifre"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        tools:ignore="DuplicateIds"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btnkaydol"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:onClick="sqlprog"
+        android:text="Kaydol"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
